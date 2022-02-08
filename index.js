@@ -52,3 +52,14 @@ const miObjeto = {
 }
 
 console.log(miObjeto.unNumero);
+
+
+//Arreglos
+const arrvacio = [];
+const arr = [1, 2, "hola", miObjeto]
+
+//Push agrega un elemento al final del arreglo
+
+arr.push(12);
+
+console.log(arr);

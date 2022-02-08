@@ -1,6 +1,6 @@
 # CursosJs
-Curso de javascript
+Course javascript
 
-Este repositorio fue creado exclisivamente para la practica de JavaScript
+This course of javascript is for practice this language
 
-Fecha:07/02/2022
+Date:07/02/2022

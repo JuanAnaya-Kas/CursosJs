@@ -36,3 +36,19 @@ console.log(undef);
 let nulo = null;
 
 console.log(nulo);
+
+//Objetos (vacio)
+
+const miPrimerObjeto = {}
+
+//Objetos (son agrupaciones de datos que hacen sentido entre si)
+
+//Los objetos no tiene variables los objetos tiene propiedades
+
+const miObjeto = {
+    unNumero: 12,
+    unString: 'Esta cadena de caracteres',
+    unCondicion: true,
+}
+
+console.log(miObjeto.unNumero);

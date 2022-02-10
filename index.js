@@ -63,3 +63,35 @@ const arr = [1, 2, "hola", miObjeto]
 arr.push(12);
 
 console.log(arr);
+
+
+//Operaciones matematicas
+const suma = 1 + 2
+const resta = 1 - 2
+const multiplicacion = 2 * 3
+const division = 9 / 3
+
+console.log(suma, resta, multiplicacion, division);
+
+const modulo = 10 % 3
+console.log(modulo);
+
+//Diferencia entre const y let (no permite reasignar una variable)
+
+let num = 5;
+// ++ automaticamente suma 1
+//num++;
+// -- automaticamente resta 1
+//num--;
+// += aumenta segun el valor
+num += 5
+// -= resta segun el valor
+num -= 5
+// *= multiplica segun el valor
+num *= 5
+// /= divide segun el valor
+num /= 2
+
+console.log(num);
+
+

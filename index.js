@@ -94,7 +94,22 @@ num /= 2
 
 console.log(num);
 
+//Operadores logicos
 
-//MENSAJE DE PRUEBA
+// === igualdad extrincta tiene en cuenta tanto el tipo de dato como el valor
+const resultado1 = 5 === 6;
+// == igualdad no extricta sin tener en cuenta el tipo de dato
+const resultado2 = 5 == '5';
+// < menor que y > mayor que
+const resultado3 = 5 < 6
+const resultado4 = 6 > 5
+// <= menor o igual que
+const resultado5 = 5 <= 5
+const resultado6 = 5 <= 6
+// desigualdad extricta
+const resultado7 = 5 !== 6
+// desigualdad no extricta
+const resultado8 = 5 != '5'
+console.log(resultado8);
 
 

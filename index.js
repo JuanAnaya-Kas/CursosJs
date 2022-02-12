@@ -112,4 +112,12 @@ const resultado7 = 5 !== 6
 const resultado8 = 5 != '5'
 console.log(resultado8);
 
+//Operadores logicos ('AND' &&, 'OR' ||, 'NOT' !)
 
+//OR busca el primer valor que sea verdadero y no lo busca mas
+const restadoOr = false || true;
+//AND busca el primer valor que sea falso y no lo busca mas
+const restadoAnd = true && true;
+//NOT busca el primer valor que sea verdadero y lo cambia a falso
+const restadoNot = !true;
+console.log(restadoNot);

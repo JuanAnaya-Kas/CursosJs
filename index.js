@@ -94,7 +94,7 @@ num /= 2
 
 console.log(num);
 
-//Operadores logicos
+//Operadores de comparacion
 
 // === igualdad extrincta tiene en cuenta tanto el tipo de dato como el valor
 const resultado1 = 5 === 6;

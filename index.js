@@ -1,4 +1,4 @@
-console.log('Hola mundo');
+//console.log('Hola mundo');
 
 //Tidpos de datos en javascript
 //STING (cadena de caracteres. ejemplos: 'a' 'hola mundo' 'jake el perro')
@@ -28,14 +28,14 @@ let miNumero = 0;
 let miNumero2 = 12;
 let miNumero3 = -258;
 
-console.log(miNumero, miNumero2, miBoleano, miPrimeraVarible);
+//console.log(miNumero, miNumero2, miBoleano, miPrimeraVarible);
 
 let undef
-console.log(undef);
+//console.log(undef);
 
 let nulo = null;
 
-console.log(nulo);
+//console.log(nulo);
 
 //Objetos (vacio)
 
@@ -51,7 +51,7 @@ const miObjeto = {
     unCondicion: true,
 }
 
-console.log(miObjeto.unNumero);
+//console.log(miObjeto.unNumero);
 
 
 //Arreglos
@@ -62,7 +62,7 @@ const arr = [1, 2, "hola", miObjeto]
 
 arr.push(12);
 
-console.log(arr);
+//console.log(arr);
 
 
 //Operaciones matematicas
@@ -71,10 +71,10 @@ const resta = 1 - 2
 const multiplicacion = 2 * 3
 const division = 9 / 3
 
-console.log(suma, resta, multiplicacion, division);
+//console.log(suma, resta, multiplicacion, division);
 
 const modulo = 10 % 3
-console.log(modulo);
+//console.log(modulo);
 
 //Diferencia entre const y let (no permite reasignar una variable)
 
@@ -92,7 +92,7 @@ num *= 5
 // /= divide segun el valor
 num /= 2
 
-console.log(num);
+//console.log(num);
 
 //Operadores de comparacion
 
@@ -110,7 +110,7 @@ const resultado6 = 5 <= 6
 const resultado7 = 5 !== 6
 // desigualdad no extricta
 const resultado8 = 5 != '5'
-console.log(resultado8);
+//console.log(resultado8);
 
 //Operadores logicos ('AND' &&, 'OR' ||, 'NOT' !)
 
@@ -120,4 +120,15 @@ const restadoOr = false || true;
 const restadoAnd = true && true;
 //NOT busca el primer valor que sea verdadero y lo cambia a falso
 const restadoNot = !true;
-console.log(restadoNot);
+//console.log(restadoNot);
+
+// Control de flujo
+
+//if (condicion) {}
+
+const edad = 5;
+if (edad > 5 && edad < 18) {
+    console.log('El niño puede jugar');
+}else{
+    console.log('El niño no puede jugar');
+}

@@ -128,7 +128,19 @@ const restadoNot = !true;
 
 const edad = 5;
 if (edad > 5 && edad < 18) {
-    console.log('El niño puede jugar');
+    //console.log('El niño puede jugar');
 }else{
-    console.log('El niño no puede jugar');
+    //console.log('El niño no puede jugar');
 }
+
+//while (condicion) {}
+
+//while seguira ejecutandoce  mientras la condicion sea verdadera
+let x = 0;
+
+while (x < 5) {
+    console.log(x);
+    x++;
+}
+
+console.log('Fin del while');

@@ -139,8 +139,37 @@ if (edad > 5 && edad < 18) {
 let x = 0;
 
 while (x < 5) {
-    console.log(x);
+    //console.log(x);
     x++;
 }
 
-console.log('Fin del while');
+//console.log('Fin del while');
+
+//switch (condicion) {}
+
+//switch evalua una condicion y ejecuta una accion dependiendo de la condicion
+
+switch (2) {
+    case 1:{
+        //console.log('Coso de 1');
+        break;
+    }
+    case 2:{
+        //console.log('Coso de 2');
+        break;
+    }
+    case 3:{
+        //console.log('Coso de 3');
+        break;
+    }
+    default:{
+        //console.log('Coso de default');
+        break;
+    }
+}
+
+//for (inicializacion; condicion; incremento) {}
+// se inicializa la variable, se evalua la condicion y se incrementa
+for (let i =0; i < 10; i++){
+    console.log(i);
+}

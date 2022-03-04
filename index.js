@@ -171,5 +171,11 @@ switch (2) {
 //for (inicializacion; condicion; incremento) {}
 // se inicializa la variable, se evalua la condicion y se incrementa
 for (let i =0; i < 10; i++){
-    console.log(i);
+    //console.log(i);
+}
+//aceder a los datos de un arreglo
+const numeros = [1, 2, 'hola', 4, 5];
+
+for (let i =0; i < numeros.length; i++){
+    console.log(numeros[i]);
 }

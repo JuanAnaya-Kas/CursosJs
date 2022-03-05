@@ -174,8 +174,23 @@ for (let i =0; i < 10; i++){
     //console.log(i);
 }
 //aceder a los datos de un arreglo
-const numeros = [1, 2, 'hola', 4, 5];
+// const numeros = [1, 2, 'hola', 4, 5];
 
-for (let i =0; i < numeros.length; i++){
-    console.log(numeros[i]);
+// for (let i =0; i < numeros.length; i++){
+//     console.log(numeros[i]);
+// }
+
+//FUNCIONES
+
+//LAS FUNCIONES SON BLOQUES DE CODIGO QUE SE EJECUTAN CUANDO SE LLAMAN
+//LOS ARGUMENTOS SON LOS PARAMETROS QUE SE LE PASAN A LA FUNCION
+
+function iterar (agr1 /*argumento*/){
+    for (let i =0; i < agr1.length; i++){
+    console.log(agr1[i]);
+    }
 }
+const numeros = [1, 2, 'hola', 4, 5];
+const nombres = ['Juan', 'Pedro', 'Maria'];
+iterar(numeros /*Parametro*/ );
+iterar(nombres);

@@ -66,10 +66,10 @@ arr.push(12);
 
 
 //Operaciones matematicas
-const suma = 1 + 2
-const resta = 1 - 2
-const multiplicacion = 2 * 3
-const division = 9 / 3
+// const suma = 1 + 2
+// const resta = 1 - 2
+// const multiplicacion = 2 * 3
+// const division = 9 / 3
 
 //console.log(suma, resta, multiplicacion, division);
 
@@ -187,10 +187,31 @@ for (let i =0; i < 10; i++){
 
 function iterar (agr1 /*argumento*/){
     for (let i =0; i < agr1.length; i++){
-    console.log(agr1[i]);
+    //console.log(agr1[i]);
     }
 }
 const numeros = [1, 2, 'hola', 4, 5];
 const nombres = ['Juan', 'Pedro', 'Maria'];
 iterar(numeros /*Parametro*/ );
 iterar(nombres);
+
+function suma(a, b){
+    return a + b;
+}
+
+const resultadoSuma1 = suma(1, 2);
+const resultadoSuma2 = suma(5, 6);
+const resultadoSuma3 = suma(resultadoSuma1, resultadoSuma2);
+
+//console.log('Resultado de la suma: ', resultadoSuma3);
+
+//callback es una funcion que se pasa como parametro a otra funcion
+
+function sumar(a,b,cb){
+    const r = a + b;
+    cb(r)
+}
+function callback(result){
+    console.log('resultado',result);
+}
+sumar(2,3, callback);

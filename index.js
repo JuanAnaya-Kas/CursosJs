@@ -214,4 +214,29 @@ function sumar(a,b,cb){
 function callback(result){
     console.log('resultado',result);
 }
-sumar(2,3, callback);
+//sumar(2,3, callback);
+
+//Fat arrow functions
+
+//Primera opcion 
+
+const miFatarrowFuntion = (a,b) => a + b;
+
+const r = miFatarrowFuntion(1,2);
+
+//console.log(r);
+
+//Segunda opcion
+
+const miSegundaArrowFunction = (a,b) => {
+    return a + b;
+}
+
+const r2 = miSegundaArrowFunction(1,2);
+//console.log(r2);
+
+//Funciones anonimas son funciones que no tienen nombre
+
+sumar(2,3, function (r){
+    console.log('Soy una funcion anonima', r);
+});

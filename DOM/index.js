@@ -6,4 +6,13 @@ window.onload = () => {
    // parrafo.innerText = 'Texto cambiado'
     //.innerHTML puede cambiar el html del elemento
     //parrafo.innerHTML = '<li>elemento 1</li><li>elemento 2</li>'
+    // Opteniendo los valores de un formulario
+    const form = document.getElementById('todo-form')
+    form.onsubmit = (e) => {
+        e.preventDefault()
+        const todo = document.getElementById('todo');
+        const todoText = todo.value;
+        todo.value = '';
+        console.log(todoText);
+    }
 }

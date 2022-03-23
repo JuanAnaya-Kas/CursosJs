@@ -43,3 +43,4 @@ window.onload = () => {
     }
 }
 
+//El spread operator es para copiar un array o un objeto

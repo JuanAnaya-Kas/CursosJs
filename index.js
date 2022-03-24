@@ -238,5 +238,43 @@ const r2 = miSegundaArrowFunction(1,2);
 //Funciones anonimas son funciones que no tienen nombre
 
 sumar(2,3, function (r){
-    console.log('Soy una funcion anonima', r);
+    //console.log('Soy una funcion anonima', r);
 });
+
+//Las promesas son una forma de manejar el asincronismo en javascript
+
+//Ejemplo de promesa
+//Creamos un array de objetos de peliculas 
+const movies = [{
+    title: 'Titanic',
+    year: 1997
+}, {
+    title: 'Avatar',
+    year: 2009
+}, {
+    title: 'Star Wars', 
+    year: 1977
+}]
+
+
+//Creamos una funcion que retorna una promesa
+
+const getDatos = () => {
+    return new Promise((resolve, reject) => {
+        //simulamos un tiempo de espera
+        setTimeout(() => {
+         resolve(movies);   
+        }, /*Tiempo de espera en milisegundos*/  1500);
+    })
+}
+
+//Ejecutamos la funcion getDatos
+
+//async es una palabra reservada que indica que la funcion es asincrona
+async function asiyncDatos (){
+    //await espera a que la funcion getDatos termine de ejecutarse
+    const datos = await getDatos();
+    console.log(datos);
+}
+
+asiyncDatos();

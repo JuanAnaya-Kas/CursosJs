@@ -44,5 +44,3 @@ window.onload = () => {
 }
 
 //El spread operator es para copiar un array o un objeto
-
-//Las promesas son una forma de manejar el asincronismo en javascript

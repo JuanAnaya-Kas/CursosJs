@@ -263,7 +263,10 @@ const getDatos = () => {
     return new Promise((resolve, reject) => {
         //simulamos un tiempo de espera
         setTimeout(() => {
-         resolve(movies);   
+         resolve(movies); 
+         //.then es una funcion que se ejecuta cuando la promesa se resuelve
+            
+            //.catch es una funcion que se ejecuta cuando la promesa se rechaza
         }, /*Tiempo de espera en milisegundos*/  1500);
     })
 }
